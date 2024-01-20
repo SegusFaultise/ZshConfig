@@ -1,2 +1,2 @@
 # ZshConfig
-My oh my zsh config
+My OhMyZsh config.
