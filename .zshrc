@@ -21,7 +21,8 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 export PATH=$PATH:/snap/bin
 export PATH=$PATH:/etc/environment
-export PATH=$PATH:/usr/lib/avr/include
+export PATH=$PATH:/usr/lib/
+export PATH=$PATH:/DockerEnvironments/gnu-dev-env
 export C_INCLUDE_PATH="/usr/lib/avr/include"
 export LD_LIBRARY_PATH=/usr/lib/avr/include:$LD_LIBRARY_PATH
 
@@ -47,5 +48,14 @@ alias update="sudo apt update"
 alias upgrade="sudo apt upgrade"
 alias install="sudo apt install"
 alias remove="sudo apt remove"
+
+# docker alias
+alias docker build="sudo docker build -t"
+alias docker run="sudo docker run"
+
+# git alias
+alias gad="git add --a"
+alias gcom="git commit -m" 
+alias gpsh="git push"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
