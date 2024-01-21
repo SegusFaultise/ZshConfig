@@ -5,6 +5,9 @@ My OhMyZsh config.
 ```console
 sudo apt install wget
 ```
+```console
+sudo apt install zsh
+```
 
 ```console
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
