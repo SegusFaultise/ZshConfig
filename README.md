@@ -23,5 +23,5 @@ cd ZshConfig
 ```
 
 ```console
-sudo rm ../.zshrc && mv .zshrc ../ && cd .. && source .zshrc && sudo rm -r ZshConfig
+sudo rm ../.zshrc && mv .zshrc ../ && cd .. && sudo rm -r ZshConfig && source .zshrc
 ```
