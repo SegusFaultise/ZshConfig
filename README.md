@@ -23,5 +23,13 @@ cd ZshConfig
 ```
 
 ```console
-cp -f path/to/original .zshrc file path/to/new .zshrc file
+cp -f path/to/original .zshrc file path/to/new .zshrc file && cd ..
+```
+
+```console
+source .zshrc
+```
+
+```console
+sudo rm -r ZshConfig
 ```
