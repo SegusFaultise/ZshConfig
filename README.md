@@ -19,5 +19,9 @@ git clone https://github.com/NeuralNuts/ZshConfig.git
 ```
 
 ```console
-cd ZshConfig && cp -f path/to/original .zshrc file path/to/new .zshrc file
+cd ZshConfig
+```
+
+```console
+cp -f path/to/original .zshrc file path/to/new .zshrc file
 ```
